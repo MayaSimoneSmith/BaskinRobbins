@@ -49,9 +49,10 @@ overflow-x: hidden;
 .border input[type=text] {
   float:right;
   padding: 6px;
-  margin-top: 20px;
+  margin-top: 0px;
   font-size: 17px;
   border: 1px solid #ccc;
+  height: 48px;
 }
 
 .border button {
@@ -80,6 +81,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
+  
 }
 
 /* Next & previous buttons */
