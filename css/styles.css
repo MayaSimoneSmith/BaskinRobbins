@@ -172,4 +172,20 @@ img {vertical-align: middle;}
 
 .image1{
   margin-left: 200px;
+  padding-right: 50px;
+}
+
+.image2{
+  padding-right: 50px;
+}
+
+.image3{
+  padding-right: 50px;
+}
+
+.image4{
+  margin-right: 200px;
+}
+.footer{
+  align: center;
 }
