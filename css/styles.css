@@ -81,7 +81,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
-  
+
 }
 
 /* Next & previous buttons */
@@ -168,4 +168,8 @@ img {vertical-align: middle;}
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+.image1{
+  margin-left: 200px;
 }
