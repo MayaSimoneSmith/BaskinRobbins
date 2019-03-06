@@ -172,6 +172,7 @@ img {vertical-align: middle;}
 }
 .fa {
   font-size: 25px;
+  margin-left: : 100px;
 }
 
 .checked {
@@ -180,10 +181,9 @@ img {vertical-align: middle;}
 
 /* Three column layout */
 .side {
-  float: right;
-  width: 15%;
-  margin-top:10px;
-  text-align: center;
+  width: 10%;
+  text-align: right;
+  margin-left: 300px;
 }
 
 .middle {
@@ -192,10 +192,7 @@ img {vertical-align: middle;}
   width: 70%;
 }
 
-/* Place text to the right */
-.right {
-  text-align: right;
-}
+
 
 /* Clear floats after the columns */
 .row:after {
@@ -217,12 +214,16 @@ img {vertical-align: middle;}
   color: white;
 }
 
+.side_right{
+position: relative;
+}
+
 /* Individual bars */
 .bar-5 {width: 60%; height: 18px; background-color: #FF69B4;}
 .bar-4 {width: 30%; height: 18px; background-color: #1E90FF;}
 .bar-3 {width: 10%; height: 18px; background-color: #FF69B4;}
 .bar-2 {width: 4%; height: 18px; background-color: #1E90FF;}
-.bar-1 {width: 15%; height: 18px; background-color: #FF69B4;}
+.bar-1 {width: 15%; height: 18px; background-color: #FF69B4; margin-bottom: 30px;}
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
@@ -237,13 +238,18 @@ img {vertical-align: middle;}
 }
 
 .image2{
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .image3{
-  padding-right: 50px;
+  padding-right: 70px;
+
 }
 
 .image4{
   margin-right: 200px;
+}
+
+footer{
+  margin-right: 100px;
 }
