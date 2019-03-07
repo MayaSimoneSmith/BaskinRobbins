@@ -172,7 +172,6 @@ img {vertical-align: middle;}
 }
 .fa {
   font-size: 25px;
-  margin-left: : 100px;
 }
 
 .checked {
@@ -184,6 +183,7 @@ img {vertical-align: middle;}
   width: 10%;
   text-align: right;
   margin-left: 300px;
+  float:
 }
 
 .middle {
@@ -215,7 +215,14 @@ img {vertical-align: middle;}
 }
 
 .side_right{
-position: relative;
+  margin-left: 1300px;
+  margin-top: 30px;
+  text-align: justify;
+}
+.Ratings .heading {
+margin-left: 850px;
+margin-bottom: auto;
+padding-bottom: 50px;
 }
 
 /* Individual bars */
@@ -231,25 +238,25 @@ position: relative;
     width: 100%;
   }
 
-
-.image1{
-  margin-left: 200px;
+.footer .image1 {
+  margin-right: 200px;
   padding-right: 50px;
 }
 
-.image2{
+.footer .image2 {
   padding-right: 70px;
+  margin-left: 200px;
 }
 
-.image3{
+.footer .image3 {
   padding-right: 70px;
-
+margin-left: 200px;
 }
 
-.image4{
-  margin-right: 200px;
+.footer .image4 {
+  margin-left: 200px;
 }
 
 footer{
-  margin-right: 100px;
+  margin-left: 100px;
 }
