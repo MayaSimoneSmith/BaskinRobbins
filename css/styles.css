@@ -54,6 +54,7 @@ input[type=submit]:hover {
    text-align: center;
    text-decoration: underline;
    font-size: 75px;
+   color: #1C44E8;
  }
 h2 {
   margin-left: 230px;
@@ -66,6 +67,12 @@ h2 {
   font-size: 25px;
   color: DeepSkyBlue;
   font-family: American Typewriter,serif;
+}
+.seasonals {
+  margin-left: 215px;
+  font-size: 25px;
+  color: DeepSkyBlue;
+  font-family: American Typewrite,serif;
 }
 
 .sidenav {

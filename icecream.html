@@ -28,10 +28,88 @@
 
   <h1>Icecream Flavors</h2>
 
+    <!--Slideshow here-->
+      <div class="slideshow-container">
+
+      <div class="mySlides Fade">
+        <div class="numbertext">1 / 6</div>
+        <img src="./img/cup.jpg" width="1000px;" height="600px;">
+      </div>
+
+      <div class="mySlides Fade">
+        <div class="numbertext">2 / 6</div>
+        <img src="./img/3cones.png" width="1000px;" height="500px;">
+      </div>
+
+      <div class="mySlides Fade">
+        <div class="numbertext">3 / 6</div>
+        <img src="./img/3cups.jpg" width="1000px;" height="600px;">
+      </div>
+
+      <div class="mySlides Fade">
+        <div class="numbertext">4 / 6</div>
+        <img src="./img/coffee.jpg" width="1000px;" height="600px;">
+      </div>
+
+      <div class="mySlides Fade">
+        <div class="numbertext">5 / 6</div>
+        <img src="./img/promo.jpg" width="1000px;" height="600px;">
+      </div>
+
+      <div class="mySlides Fade">
+        <div class="numbertext">6 / 6</div>
+        <img src="./img/RowsIc.jpg" width="1000px;" height="600px;">
+      </div>
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+
+      </div>
+
+      <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides(slideIndex += n);
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = slides.length}
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";
+        dots[slideIndex-1].className += " active";
+      }
+      </script>
+
   <h2>Classic Icecreams:</h2>
   <ul>
     <li class="classics">Cherries Jubilee Icecream -  Chocolate Chip Cookie Dough Icecream -   Chocolate Chip Icecream</li>
-    
     <li class="classics">Chocolate Icecream  -  Chocolate Mousse Royale Icecream  -  Daiquri Icecream</li>
     <li class="classics">Gold Medal Ribbons Icecream  -  Icing on the Cake Icecream  -  Jamoca Almond Fudge Icecream</li>
     <li class="classics">Jamoca Icecream  -  Snickers Bar Icecream  - Mint Chocolate Chip Icecream</li>
@@ -42,8 +120,34 @@
     <li class="classics">Very Berry Strawberry Icecream  -  Wild 'n Reckless Sherbet  -  World Class Chocolate Icecream</li>
   </ul>
 
+  <hr style="border:3px solid #f1f1f1">
+
+  <h2>Seasonal Icecreams:</h2>
+
+  <ul>
+    <li class="seasonals">Blueberry Muffin Icecream  -  Bananas 'n Strawberries Icecream  -  Baseball Nut Icecream</li>
+    <li class="seasonals">Black Walnut Icecream  -  Bourbon Street Pecan Pie Icecream  -  Chocolate Almond Icecream</li>
+    <li class="seasonals">Chocolate Fudge Icecream  -  Chocolate Mousse Royal Icecream  -  Cotton Candy Icecream</li>
+    <li class="seasonals">Creole Cream Chease Icecream  -  Fat-Free Vanilla Frozen Yogurt  -  French Vanilla Icecream</li>
+    <li class="seasonals">Green Tea Icecream  -  Horchata Ice  -  Icing on the Cake Icecream  -  Lemon Custard Icecream</li>
+    <li class="seasonals">Love Portion #31  -  Miami Vice Sorbet  -  New York Cheesecake Icecream</li>
+    <li class="seasonals">Orange Sherbet  -  Oregon Blackberry Icecream  -  Caramel Turtle Truffle Icecram</li>
+    <li class="seasonals">Pineapple Coconut Icecream  -  Raspberry Sorbet  -  Rum Raisin Icecream</li>
+    <li class="seasonals">Strawberry Cheesecake Icecream  -  Tax Crunch Icecream  -  Wild 'n Reckless Sherbet</li>
+  </ul>
 
   </div>
 
+    <hr style="border:3px solid #f1f1f1">
+
+  <div class="footer">
+    <img class="image1" src="./img/FB logo.jpg" width="100px" height="75px" style="margin-left: 175px; margin-right: 100px;">
+    <img class="image2" src="./img/instagram logo.jpg" width="100px" height="70px" style="margin-left: 175px; margin-right: 100px;">
+    <img class="image2" src="./img/twitter logo.jpg" width="100px" height="60px" style="margin-left: 175px; margin-right: 100px;">
+    <img class="image3" src="./img/YT logo.jpg" width="100px" height="60px" style="margin-left: 175px; margin-right: 100px;">
+    <img class="image4" src="./img/Pinterest Logo.jpg" width="75px" height="60px" style="margin-left: 175px; margin-right: 100px;">
+
+
+  </div>
 </body>
 </html>
