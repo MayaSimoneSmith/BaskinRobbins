@@ -74,6 +74,17 @@ h2 {
   color: DeepSkyBlue;
   font-family: American Typewrite,serif;
 }
+.birthdaycakes {
+  margin-left: 250px;
+  height: 150px;
+  width: 125px;
+}
+
+.Tiercakes {
+  margin-left: 250px;
+  height: 150px;
+  width: 125px;
+}
 
 .sidenav {
   height: 100%;
