@@ -52,9 +52,8 @@ input[type=submit]:hover {
 
  h1 {
    text-align: center;
-   text-decoration: underline;
    font-size: 75px;
-   color: #1C44E8;
+   color: #ff3399;
  }
 h2 {
   margin-left: 230px;
@@ -71,7 +70,7 @@ h2 {
 .seasonals {
   margin-left: 215px;
   font-size: 25px;
-  color: DeepSkyBlue;
+  color: #FF69B4;
   font-family: American Typewrite,serif;
 }
 .birthdaycakes {
@@ -98,8 +97,17 @@ h2 {
   width: 125px;
 }
 
+.caption {
+border: 2px dotted DeepSkyBlue;
+color: #FF69B4;
+font-size: 25px;
+margin-left: 70px;
+}
 
-
+.cakes {
+  font-size: 100px;
+  color: #ff3399;
+}
 
 .sidenav {
   height: 100%;
