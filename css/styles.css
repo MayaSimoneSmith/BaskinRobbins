@@ -98,7 +98,7 @@ h2 {
 }
 
 .caption {
-border: 2px dotted DeepSkyBlue;
+border: 3px dotted DeepSkyBlue;
 color: #FF69B4;
 font-size: 25px;
 margin-left: 70px;
@@ -108,6 +108,7 @@ margin-left: 70px;
   font-size: 100px;
   color: #ff3399;
 }
+
 
 .sidenav {
   height: 100%;
