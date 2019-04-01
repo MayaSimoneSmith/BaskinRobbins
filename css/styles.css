@@ -109,6 +109,39 @@ margin-left: 70px;
   color: #ff3399;
 }
 
+.Milkshakes {
+  margin-left: 250px;
+}
+
+.Pink {
+  margin-left: 210px;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+  bottom: 50px;
+}
+
+.Brookie {
+  margin-left: 690px;
+  text-align: left;
+  font-size: 15px;
+  position: relative;
+  bottom: 135px;
+}
+
+.Caramel {
+margin-left: 480px;
+font-size: 15px;
+position: relative;
+bottom: 220px;
+}
+
+.CCCD {
+  margin-left: 1250px;
+  font-size: 15px;
+  position: relative;
+  bottom: 305px;
+}
 
 .sidenav {
   height: 100%;
