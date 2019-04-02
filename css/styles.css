@@ -143,6 +143,66 @@ bottom: 220px;
   bottom: 305px;
 }
 
+.CC {
+    font-size: 15px;
+    bottom: 20px;
+    position: relative;
+    margin-right: 1200px;
+}
+
+.Coke {
+  font-size: 15px;
+  margin-right: 400px;
+  bottom: 110px;
+  position: relative;
+}
+
+.Cream {
+    font-size: 15px;
+    margin-left: 500px;
+    position: relative;
+    bottom: 200px;
+
+}
+
+.Energy {
+    font-size: 15px;
+    margin-left: 1300px;
+    bottom: 300px;
+    position: relative;
+}
+
+.Freeze {
+font-size: 15px;
+margin-right: 1280px;
+bottom: 50px;
+position: relative;
+}
+
+.Gold {
+  font-size: 15px;
+  margin-right: 470px;
+bottom: 140px;
+position: relative;
+}
+
+.Mbanana {
+font-size: 15px;
+margin-left: 500px;
+bottom: 230px;
+position: relative;
+}
+
+.Mfruit {
+  font-size: 15px;
+  margin-left: 1300px;
+  bottom: 320px;
+  position: relative;
+}
+
+
+
+
 .sidenav {
   height: 100%;
   width: 160px;
