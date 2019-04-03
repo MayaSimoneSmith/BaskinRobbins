@@ -61,6 +61,16 @@ h2 {
   text-decoration: underline;
   color: #787878;
 }
+
+.Sundaes {
+  margin-left: 230px;
+  text-align: left;
+  text-decoration: underline;
+  color: #787878;
+  position: relative;
+  bottom: 400px;
+}
+
 .classics {
   margin-left: 215px;
   font-size: 25px;
@@ -109,10 +119,6 @@ margin-left: 70px;
   color: #ff3399;
 }
 
-.Milkshakes {
-  margin-left: 250px;
-}
-
 .Pink {
   margin-left: 210px;
   text-align: left;
@@ -145,15 +151,15 @@ bottom: 220px;
 
 .CC {
     font-size: 15px;
-    bottom: 20px;
+    bottom: 250px;
     position: relative;
-    margin-right: 1200px;
+    margin-right: 1250px;
 }
 
 .Coke {
   font-size: 15px;
   margin-right: 400px;
-  bottom: 110px;
+  bottom: 330px;
   position: relative;
 }
 
@@ -161,48 +167,62 @@ bottom: 220px;
     font-size: 15px;
     margin-left: 500px;
     position: relative;
-    bottom: 200px;
+    bottom: 420px;
 
 }
 
 .Energy {
     font-size: 15px;
     margin-left: 1300px;
-    bottom: 300px;
+    bottom: 510px;
     position: relative;
 }
 
-.Freeze {
-font-size: 15px;
-margin-right: 1280px;
-bottom: 50px;
+.CUC {
+margin-left: 250px;
 position: relative;
+bottom: 20px;
 }
 
-.Gold {
+.CUCC {
+  margin-left: 250px;
+  position: relative;
+  bottom: 200px;
+}
+
+.CUA {
+  margin-left: 250px;
+  position: relative;
+  bottom: 400px;
+}
+
+.Cakecone {
+  font-size: 15px;
+  margin-right: 1300px;
+  bottom: 470px;
+  position: relative;
+}
+
+.Dipped {
   font-size: 15px;
   margin-right: 470px;
-bottom: 140px;
-position: relative;
+  bottom: 140px;
+  position: relative;
 }
 
-.Mbanana {
-font-size: 15px;
-margin-left: 500px;
-bottom: 230px;
-position: relative;
+.DCC {
+  font-size: 15px;
+  margin-left: 500px;
+  bottom: 230px;
+  position: relative;
 }
 
-.Mfruit {
+.DSC {
   font-size: 15px;
   margin-left: 1300px;
   bottom: 320px;
   position: relative;
 }
-
-
-
-
 .sidenav {
   height: 100%;
   width: 160px;
