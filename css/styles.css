@@ -108,7 +108,7 @@ h2 {
 }
 
 .caption {
-border: 3px dotted DeepSkyBlue;
+border: 3px solid DeepSkyBlue;
 color: #FF69B4;
 font-size: 25px;
 margin-left: 70px;
@@ -230,15 +230,52 @@ bottom: 20px;
   position: relative;
   color:#FF69B4;
 }
-.Tripe {
-  width: 50px;
-  height: 100px;
+
+.CUB {
+  margin-left: 250px;
   position: relative;
   bottom: 20px;
-
-
+}
+.SSM {
+  font-size: 15px;
+  margin-right: 1200px;
+  bottom: 45px;
+  position: relative;
+  color:#FF69B4;
 }
 
+.SCFB {
+  font-size: 15px;
+  margin-right: 420px;
+  bottom: 130px;
+  position: relative;
+  color:#FF69B4;
+}
+
+.OCB {
+  font-size: 15px;
+  margin-left: 450px;
+  bottom: 215px;
+  position: relative;
+  color:#FF69B4;
+}
+
+.WCCM {
+  font-size: 15px;
+  margin-left: 1300px;
+  bottom: 300px;
+  position: relative;
+  color:#FF69B4;
+}
+
+.WarmDesserts {
+  margin-bottom: 200px;
+  margin-top: 10px;
+  margin-left: 230px;
+  text-align: left;
+  text-decoration: underline;
+  color: #787878;
+}
 
 .sidenav {
   height: 100%;
