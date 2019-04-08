@@ -441,10 +441,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   to {opacity: 1}
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 415px) {
-  .prev, .next,.text {font-size: 11px}
-}
+
 .fa {
   font-size: 25px;
 }
@@ -495,7 +492,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   text-align: justify;
 }
 .Ratings .heading {
-margin-left: 850px;
+margin-left: 830px;
 margin-bottom: auto;
 padding-bottom: 50px;
 }
@@ -509,10 +506,6 @@ padding-bottom: 50px;
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 
-@media (max-width: 400px) {
-  .side, .middle {
-    width: 100%;
-  }
 
 .footer .image1 {
   margin-right: 200px;
@@ -528,4 +521,536 @@ margin-left: 200px;
 
 .footer .image4 {
   margin-left: 800px;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 769px) {
+  body {
+    font-family: "Lato", sans-serif;
+  }
+
+  .imageA {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: 10px;
+  }
+
+  p {
+    text-align: center;
+    margin-top: 70px;
+    font-size: 30px;
+  }
+
+  input[type=text], select, textarea {
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-left: 400px;
+    margin-right: 200px;
+    margin-bottom: 40px;
+
+  }
+
+   h1 {
+     text-align: center;
+     font-size: 75px;
+     color: #ff3399;
+   }
+  h2 {
+    margin-left: 230px;
+    text-align: left;
+    text-decoration: underline;
+    color: #787878;
+  }
+
+  .Sundaes {
+    margin-left: 230px;
+    text-align: left;
+    text-decoration: underline;
+    color: #787878;
+    position: relative;
+    bottom: 400px;
+  }
+
+  .classics {
+    margin-left: 215px;
+    font-size: 25px;
+    color: DeepSkyBlue;
+    font-family: American Typewriter,serif;
+  }
+  .seasonals {
+    margin-left: 215px;
+    font-size: 25px;
+    color: #FF69B4;
+    font-family: American Typewrite,serif;
+  }
+  .birthdaycakes {
+    margin-left: 250px;
+    height: 150px;
+    width: 125px;
+  }
+
+  .Tiercakes {
+    margin-left: 250px;
+    height: 150px;
+    width: 125px;
+  }
+
+  .Holidaycakes {
+    margin-left: 250px;
+    height: 150px;
+    width: 125px;
+  }
+
+  .pp {
+    margin-left: 250px;
+    height: 150px;
+    width: 125px;
+  }
+
+  .caption {
+  border: 3px solid DeepSkyBlue;
+  color: #FF69B4;
+  font-size: 25px;
+  margin-left: 70px;
+  }
+
+  .cakes {
+    font-size: 100px;
+    color: #ff3399;
+  }
+
+  .Pink {
+    margin-left: 210px;
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    bottom: 50px;
+  }
+
+  .Brookie {
+    margin-left: 690px;
+    text-align: left;
+    font-size: 15px;
+    position: relative;
+    bottom: 135px;
+  }
+
+  .Caramel {
+  margin-left: 480px;
+  font-size: 15px;
+  position: relative;
+  bottom: 220px;
+  }
+
+  .CCCD {
+    margin-left: 1250px;
+    font-size: 15px;
+    position: relative;
+    bottom: 305px;
+  }
+
+  .CC {
+      font-size: 15px;
+      bottom: 250px;
+      position: relative;
+      margin-right: 1250px;
+      color:#FF69B4;
+  }
+
+  .Coke {
+    font-size: 15px;
+    margin-right: 400px;
+    bottom: 330px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .Cream {
+      font-size: 15px;
+      margin-left: 500px;
+      position: relative;
+      bottom: 420px;
+      color:#FF69B4;
+  }
+
+  .Energy {
+      font-size: 15px;
+      margin-left: 1300px;
+      bottom: 510px;
+      position: relative;
+      color:#FF69B4;
+  }
+
+  .CUC {
+  margin-left: 250px;
+  position: relative;
+  bottom: 20px;
+  }
+
+  .CUCC {
+    margin-left: 250px;
+    position: relative;
+    bottom: 200px;
+  }
+
+  .CUA {
+    margin-left: 250px;
+    position: relative;
+    bottom: 400px;
+  }
+
+  .Cakecone {
+    font-size: 15px;
+    margin-right: 1250px;
+    bottom: 50px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .Dipped {
+    font-size: 15px;
+    margin-right: 470px;
+    bottom: 140px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .DCC {
+    font-size: 15px;
+    margin-left: 500px;
+    bottom: 230px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .DSC {
+    font-size: 15px;
+    margin-left: 1300px;
+    bottom: 320px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .CUB {
+    margin-left: 250px;
+    position: relative;
+    bottom: 20px;
+  }
+  .SSM {
+    font-size: 15px;
+    margin-right: 1200px;
+    bottom: 45px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .SCFB {
+    font-size: 15px;
+    margin-right: 420px;
+    bottom: 130px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .OCB {
+    font-size: 15px;
+    margin-left: 450px;
+    bottom: 215px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .WCCM {
+    font-size: 15px;
+    margin-left: 1300px;
+    bottom: 300px;
+    position: relative;
+    color:#FF69B4;
+  }
+
+  .WarmDesserts {
+    margin-bottom: 200px;
+    margin-top: 10px;
+    margin-left: 230px;
+    text-align: left;
+    text-decoration: underline;
+    color: #787878;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F8F8FF;
+  overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FF69B4;
+    display: block;
+  }
+
+  .sidenav a:hover {
+    color: #1E90FF;
+  }
+
+  .main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+
+
+  .logo{
+    text-indent: -999999px;
+    background: url('BRLogo.jpg.png');
+    width: 200px;
+    height: 100px;
+  }
+
+  .border {
+    background-color: #FF69B4;
+    height: 60px;
+    width: 1000px;
+  }
+
+  .border input[type=text] {
+    float:right;
+    padding: 6px;
+    margin-top: 0px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    height: 48px;
+    display: none;
+  }
+
+  .border button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: auto;
+    margin-right: 0px;
+    height: 48px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    width: 25px;
+    display: none;
+  }
+
+  .border button:hover {
+    background: #ccc;
+    display: none;
+  }
+
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+
+  }
+
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+  .fa {
+    font-size: 25px;
+  }
+
+  .checked {
+    color: pink;
+  }
+
+  /* Three column layout */
+  .side {
+    width: 10%;
+    text-align: right;
+    margin-left: 425px;
+  }
+
+  .middle {
+    margin-top:10px;
+    float: right;
+    width: 70%;
+  }
+
+
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    float: auto;
+  }
+  .reviews p {
+    text-align: center;
+  }
+
+  /* The bar container */
+  .bar-container {
+    width: 100%;
+    float: auto;
+    background-color: #f1f1f1;
+    text-align: right;
+    color: white;
+    margin-left: 0px;
+  }
+
+  .side_right{
+    margin-left: 1300px;
+    margin-top: 30px;
+    text-align: justify;
+  }
+  .Ratings .heading {
+  margin-left: 400px;
+  margin-bottom: auto;
+  padding-bottom: 50px;
+  }
+
+  /* Individual bars */
+  .bar-5 {width: 60%; height: 18px; background-color: #FF69B4;}
+  .bar-4 {width: 30%; height: 18px; background-color: #1E90FF;}
+  .bar-3 {width: 10%; height: 18px; background-color: #FF69B4;}
+  .bar-2 {width: 4%; height: 18px; background-color: #1E90FF;}
+  .bar-1 {width: 15%; height: 18px; background-color: #FF69B4; margin-bottom: 30px;}
+
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+
+
+  .footer .image1 {
+    margin-right: 200px;
+  }
+
+  .footer .image2 {
+    margin-left: 200px;
+  }
+
+  .footer .image3 {
+  margin-left: 200px;
+  }
+
+  .footer .image4 {
+    margin-left: 800px;
+  }
+
 }
