@@ -44,8 +44,8 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  margin-left: 400px;
-  margin-right: 200px;
+  margin-left: 500px;
+  margin-right: 0px;
   margin-bottom: 40px;
 
 }
@@ -530,16 +530,18 @@ margin-left: 200px;
 
   .imageA {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+    margin-left: 320px;
+    margin-right: 40px;
+    width: 300px;
+    height: 200px;
     margin-top: 10px;
   }
 
   p {
     text-align: center;
     margin-top: 70px;
-    font-size: 30px;
+    margin-left: 150px;
+    font-size: 25px;
   }
 
   input[type=text], select, textarea {
@@ -570,8 +572,8 @@ margin-left: 200px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-left: 400px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 0px;
     margin-bottom: 40px;
 
   }
@@ -613,24 +615,28 @@ margin-left: 200px;
     margin-left: 250px;
     height: 150px;
     width: 125px;
+    font-size: 12px;
   }
 
   .Tiercakes {
     margin-left: 250px;
     height: 150px;
     width: 125px;
+    font-size: 12px;
   }
 
   .Holidaycakes {
     margin-left: 250px;
     height: 150px;
     width: 125px;
+    font-size: 12px;
   }
 
   .pp {
     margin-left: 250px;
-    height: 150px;
-    width: 125px;
+    height: 50px;
+    width: 110px;
+    font-size: 5px;
   }
 
   .caption {
@@ -845,7 +851,7 @@ margin-left: 200px;
   .border {
     background-color: #FF69B4;
     height: 60px;
-    width: 1000px;
+    width: 100%;
   }
 
   .border input[type=text] {
@@ -1038,19 +1044,19 @@ margin-left: 200px;
 
 
   .footer .image1 {
-    margin-right: 200px;
+
   }
 
   .footer .image2 {
-    margin-left: 200px;
+    margin-left: 500px;
   }
 
   .footer .image3 {
-  margin-left: 200px;
+  margin-left: 500px;
   }
 
   .footer .image4 {
-    margin-left: 800px;
+    margin-left: 1000px;
   }
 
 }
