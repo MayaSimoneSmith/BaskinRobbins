@@ -596,7 +596,8 @@ margin-left: 200px;
     text-decoration: underline;
     color: #787878;
     position: relative;
-    bottom: 400px;
+    bottom: 1600px;
+    text-size: 30px;
   }
 
   .classics {
@@ -682,33 +683,35 @@ margin-left: 200px;
   }
 
   .CC {
-      font-size: 15px;
-      bottom: 250px;
+      font-size: 40px;
+      bottom:1605px;
       position: relative;
-      margin-right: 1250px;
+      margin-right:0px;
       color:#FF69B4;
+      margin-left: 567px;
   }
 
   .Coke {
-    font-size: 15px;
-    margin-right: 400px;
-    bottom: 330px;
+    font-size: 40px;
+    margin-right:0px;
+    bottom: 1649px;
     position: relative;
     color:#FF69B4;
+    margin-left: 560px;
   }
 
   .Cream {
-      font-size: 15px;
-      margin-left: 500px;
+      font-size: 40px;
+      margin-left: 560px;
       position: relative;
-      bottom: 420px;
+      bottom: 1680px;
       color:#FF69B4;
   }
 
   .Energy {
-      font-size: 15px;
-      margin-left: 1300px;
-      bottom: 510px;
+      font-size: 40px;
+      margin-left: 560px;
+      bottom: 1720px;
       position: relative;
       color:#FF69B4;
   }
@@ -722,7 +725,7 @@ margin-left: 200px;
   .CUCC {
     margin-left: 250px;
     position: relative;
-    bottom: 200px;
+    bottom: 800px;
   }
 
   .CUA {
@@ -732,33 +735,33 @@ margin-left: 200px;
   }
 
   .Cakecone {
-    font-size: 15px;
-    margin-right: 1250px;
-    bottom: 50px;
+    font-size: 40px;
+    margin-left: 600px;
+    bottom: 755px;
     position: relative;
     color:#FF69B4;
   }
 
   .Dipped {
-    font-size: 15px;
-    margin-right: 470px;
-    bottom: 140px;
+    font-size: 40px;
+    margin-left: 595px;
+    bottom: 800px;
     position: relative;
     color:#FF69B4;
   }
 
   .DCC {
-    font-size: 15px;
-    margin-left: 500px;
-    bottom: 230px;
+    font-size: 40px;
+    margin-left: 550px;
+    bottom: 810px;
     position: relative;
     color:#FF69B4;
   }
 
   .DSC {
-    font-size: 15px;
-    margin-left: 1300px;
-    bottom: 320px;
+    font-size: 40px;
+    margin-left: 550px;
+    bottom: 799px;
     position: relative;
     color:#FF69B4;
   }
