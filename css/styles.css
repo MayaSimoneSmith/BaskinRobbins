@@ -62,6 +62,17 @@ h2 {
   color: #787878;
 }
 
+.Special {
+  text-align: center;
+  font-size: 75px;
+  color: #ff3399;
+}
+
+.Bev {
+  text-align: center;
+  font-size: 75px;
+  color: #ff3399;
+}
 .Sundaes {
   margin-left: 230px;
   text-align: left;
@@ -572,15 +583,16 @@ margin-left: 200px;
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
-    margin-left: 300px;
-    margin-right: 0px;
+    margin-left: 250px;
+    margin-right: 70px;
     margin-bottom: 40px;
 
   }
 
    h1 {
      text-align: center;
-     font-size: 75px;
+     font-size: 100px;
+     margin-left: 380px;
      color: #ff3399;
    }
   h2 {
@@ -588,6 +600,18 @@ margin-left: 200px;
     text-align: left;
     text-decoration: underline;
     color: #787878;
+  }
+  .Special {
+    text-align: center;
+    font-size: 70px;
+    margin-left: 200px;
+    color: #ff3399;
+  }
+  .Bev {
+    text-align: center;
+    font-size: 100px;
+    margin-left: 450px;
+    color: #ff3399;
   }
 
   .Sundaes {
@@ -597,7 +621,7 @@ margin-left: 200px;
     color: #787878;
     position: relative;
     bottom: 1600px;
-    text-size: 30px;
+    text-size:30px;
   }
 
   .classics {
@@ -644,11 +668,13 @@ margin-left: 200px;
   border: 3px solid DeepSkyBlue;
   color: #FF69B4;
   font-size: 25px;
-  margin-left: 70px;
+  margin-left: 215px;
+  margin-right: 70px;
   }
 
   .cakes {
     font-size: 100px;
+    margin-left: 170px;
     color: #ff3399;
   }
 
@@ -852,9 +878,10 @@ margin-left: 200px;
   }
 
   .border {
-    background-color: #FF69B4;
+    background-color: #FFFFFF;
     height: 60px;
     width: 100%;
+
   }
 
   .border input[type=text] {
@@ -865,6 +892,7 @@ margin-left: 200px;
     border: 1px solid #ccc;
     height: 48px;
     display: none;
+
   }
 
   .border button {
@@ -879,11 +907,13 @@ margin-left: 200px;
     cursor: pointer;
     width: 25px;
     display: none;
+
   }
 
   .border button:hover {
     background: #ccc;
     display: none;
+
   }
 
   * {box-sizing: border-box}
@@ -893,7 +923,7 @@ margin-left: 200px;
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
+    max-width: 450px;
     position: relative;
     margin: auto;
 
