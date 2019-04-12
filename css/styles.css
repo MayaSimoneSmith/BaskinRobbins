@@ -44,7 +44,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  margin-left: 500px;
+  margin-left: 475px;
   margin-right: 0px;
   margin-bottom: 40px;
 
@@ -136,6 +136,7 @@ margin-left: 70px;
   font-size: 15px;
   position: relative;
   bottom: 50px;
+  color: #FF69B4;
 }
 
 .Brookie {
@@ -144,6 +145,7 @@ margin-left: 70px;
   font-size: 15px;
   position: relative;
   bottom: 135px;
+  color: #FF69B4;
 }
 
 .Caramel {
@@ -151,6 +153,7 @@ margin-left: 480px;
 font-size: 15px;
 position: relative;
 bottom: 220px;
+color: #FF69B4;
 }
 
 .CCCD {
@@ -158,6 +161,7 @@ bottom: 220px;
   font-size: 15px;
   position: relative;
   bottom: 305px;
+  color: #FF69B4;
 }
 
 .CC {
@@ -190,6 +194,14 @@ bottom: 220px;
     bottom: 510px;
     position: relative;
     color:#FF69B4;
+}
+
+.Float {
+  font-size: 15px;
+  margin-right: 400px;
+  bottom: 330px;
+  position: relative;
+  color:#FF69B4;
 }
 
 .CUC {
@@ -609,8 +621,8 @@ margin-left: 200px;
   }
   .Bev {
     text-align: center;
-    font-size: 100px;
-    margin-left: 450px;
+    font-size: 75px;
+    margin-left: 200px;
     color: #ff3399;
   }
 
@@ -679,33 +691,37 @@ margin-left: 200px;
   }
 
   .Pink {
-    margin-left: 210px;
+    margin-left: 510px;
     text-align: left;
-    font-size: 15px;
+    font-size: 40px;
     position: relative;
-    bottom: 50px;
+    bottom: 800px;
+    color: #FF69B4;
   }
 
   .Brookie {
-    margin-left: 690px;
+    margin-left: 500px;
     text-align: left;
-    font-size: 15px;
+    font-size: 40px;
     position: relative;
-    bottom: 135px;
+    bottom: 800px;
+    color: #FF69B4;
   }
 
   .Caramel {
-  margin-left: 480px;
-  font-size: 15px;
+  margin-left: 450px;
+  font-size: 40px;
   position: relative;
-  bottom: 220px;
+  bottom: 815px;
+  color: #FF69B4;
   }
 
   .CCCD {
-    margin-left: 1250px;
-    font-size: 15px;
+    margin-left: 500px;
+    font-size: 40px;
     position: relative;
-    bottom: 305px;
+    bottom: 830px;
+    color: #FF69B4;
   }
 
   .CC {
@@ -740,6 +756,14 @@ margin-left: 200px;
       bottom: 1720px;
       position: relative;
       color:#FF69B4;
+  }
+
+  .Float {
+    font-size: 40px;
+    margin-left: 560px;
+    bottom: 1000px;
+    position: relative;
+    color:#FF69B4;
   }
 
   .CUC {
@@ -796,6 +820,7 @@ margin-left: 200px;
     margin-left: 250px;
     position: relative;
     bottom: 20px;
+    display: none;
   }
   .SSM {
     font-size: 15px;
@@ -803,6 +828,7 @@ margin-left: 200px;
     bottom: 45px;
     position: relative;
     color:#FF69B4;
+    display: none;
   }
 
   .SCFB {
@@ -811,6 +837,7 @@ margin-left: 200px;
     bottom: 130px;
     position: relative;
     color:#FF69B4;
+    display: none;
   }
 
   .OCB {
@@ -819,6 +846,7 @@ margin-left: 200px;
     bottom: 215px;
     position: relative;
     color:#FF69B4;
+    display: none;
   }
 
   .WCCM {
@@ -827,6 +855,7 @@ margin-left: 200px;
     bottom: 300px;
     position: relative;
     color:#FF69B4;
+    display: none;
   }
 
   .WarmDesserts {
@@ -986,6 +1015,7 @@ margin-left: 200px;
     border-radius: 50%;
     display: inline-block;
     transition: background-color 0.6s ease;
+    display: none;
   }
 
   .active, .dot:hover {
